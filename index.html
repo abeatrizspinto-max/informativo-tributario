@@ -172,9 +172,89 @@ footer{text-align:center;font-size:11.5px;color:var(--suave);padding:20px 16px 3
    Atualizada automaticamente todo dia às 07h (América/São_Paulo).
    NUNCA remover registros anteriores — apenas acrescentar no topo do array. */
 
-const ATUALIZADO_EM = "2026-09-16";
+const ATUALIZADO_EM = "2026-09-17";
 
 const DECISOES = [
+{
+  id:"carf-sumula-limite-alcada-juros-mora",
+  identificacao:"Proposta de Súmula CARF — nº — (Pleno da CSRF)",
+  tema:"—",
+  titulo:"CARF aprova súmula: limite de alçada considera apenas tributo principal e multa original, sem cômputo de juros de mora",
+  orgao:"CARF",
+  colegiado:"Pleno da Câmara Superior de Recursos Fiscais (CSRF)",
+  data:"2026-09-14",
+  publicacao:"—",
+  relator:"—",
+  tipoAto:"Súmula (enunciado aprovado em sessão extraordinária do Pleno e das Turmas da CSRF)",
+  resultado:"Proposta de súmula aprovada",
+  orientacao:"favor",
+  orientacaoLabel:"Favorável ao contribuinte",
+  vinculacao:"Vinculante",
+  vinculacaoDetalhe:"Súmula do CARF; passa a vincular julgamentos do próprio CARF e das Delegacias da Receita Federal de Julgamento (DRJ) a partir da publicação do enunciado no Diário Oficial da União — publicação ainda não confirmada nas fontes consultadas até 17/09/2026.",
+  areas:["Direito Tributário","Processo Administrativo Fiscal"],
+  tributos:["—"],
+  tags:["limite de alçada","juros de mora","recurso de ofício","súmula CARF","CSRF","processo administrativo fiscal","competência recursal","multa","tributo principal"],
+  resumo:"Em sessão extraordinária realizada em 14/9/2026 (Portaria Carf/MF nº 2.585/2026), o Pleno da CSRF aprovou súmula segundo a qual, para fins de apuração do limite de alçada (valor mínimo que autoriza recurso de ofício ou recurso voluntário ao CARF), somente devem ser considerados os valores exonerados de tributo (principal original) e de multa (original), excluídos os juros de mora.",
+  tese:"Para fins de apuração do limite de alçada, devem ser tomados em conta apenas os valores exonerados de tributo (principal original) e encargos de multa (original), não cabendo o cômputo dos juros de mora.",
+  fatos:"Havia divergência no contencioso administrativo fiscal sobre se os juros de mora deveriam ser somados ao tributo e à multa para fins de apuração do limite de alçada, que define a competência recursal (DRJ, Turma Ordinária ou Câmara Superior) e a admissibilidade de recurso de ofício da Fazenda. A proposta de súmula foi submetida a votação em sessão extraordinária do Pleno e das Turmas da CSRF em 14/9/2026, sendo aprovada pelo Pleno.",
+  fundamentos:[
+    "O limite de alçada tem natureza processual e se destina a filtrar a relevância econômica do litígio para fins recursais, devendo ser apurado com base no valor da exigência originária (tributo e multa), sem a variável temporal e incerta representada pelos juros de mora.",
+    "A inclusão dos juros de mora no cálculo do limite de alçada geraria instabilidade, pois o valor da exigência oscilaria com o mero decurso do tempo entre o lançamento e o julgamento, alterando a competência recursal por fator alheio ao mérito da autuação."
+  ],
+  dispositivos:["—"],
+  precedentes:["—"],
+  analise:[
+    "Favorece contribuintes em autuações antigas ou de tramitação longa, nas quais os juros de mora acumulados poderiam elevar artificialmente o valor total da exigência acima do limite de alçada, forçando remessa a instâncias superiores (inclusive recurso de ofício da Fazenda) que, sob a nova súmula, deixam de ser cabíveis.",
+    "Solidez: aprovada pelo Pleno da CSRF, a mais alta instância de uniformização do contencioso administrativo tributário federal — grau máximo de solidez interna ao órgão, com efeito vinculante amplo assim que publicada.",
+    "Recursos cabíveis: não há recurso administrativo contra súmula do CARF; eventual discordância da Fazenda Nacional quanto ao critério de cálculo deveria ser veiculada por via legislativa ou normativa, e não por recurso administrativo individual.",
+    "Teses replicáveis: (1) em processos administrativos em que a Fazenda pretenda ou já tenha interposto recurso de ofício com base em valor que só supera o limite de alçada por força de juros de mora, requerer o não conhecimento do recurso com fundamento na súmula; (2) recalcular o valor de alçada de processos em curso, expurgando os juros de mora, para reavaliar a instância recursal cabível; (3) mapear processos extintos ou não conhecidos por decisão que tenha computado juros de mora no limite de alçada, para eventual rediscussão.",
+    "Limites: a súmula trata exclusivamente do critério de cálculo do limite de alçada para fins de competência recursal — não afeta a exigibilidade do próprio crédito tributário, tampouco a incidência dos juros de mora sobre o valor devido ao final do processo.",
+    "Providências práticas: orientar a equipe de contencioso administrativo a recalcular, em todos os processos ativos, o valor relevante para fins de alçada desconsiderando os juros de mora, e a arguir a súmula em recursos de ofício da Fazenda que dependam desse cômputo para ultrapassar o limite."
+  ],
+  impacto:"Transversal a todo o contencioso administrativo fiscal federal, por definir a competência recursal (DRJ, Turma Ordinária, Câmara Superior) e a admissibilidade de recurso de ofício em função do valor da exigência, com potencial de reduzir o volume de processos remetidos a instâncias superiores por efeito exclusivo de juros de mora.",
+  fonte:"https://www.lacerdagama.com.br/post/carf-aprova-oito-novas-s%C3%BAmulas-sobre-restitui%C3%A7%C3%A3o-irpj-csll-contribui%C3%A7%C3%B5es-ipi-e-iof",
+  origem:"Pesquisa em fontes secundárias"
+},
+{
+  id:"carf-sumula-atualizacao-indebitos-expurgos-inflacionarios",
+  identificacao:"Proposta de Súmula CARF — nº — (Pleno da CSRF)",
+  tema:"—",
+  titulo:"CARF aprova súmula: atualização de indébitos a restituir ou compensar deve computar expurgos inflacionários da Tabela Única da Justiça Federal, mesmo sem decisão judicial específica",
+  orgao:"CARF",
+  colegiado:"Pleno da Câmara Superior de Recursos Fiscais (CSRF)",
+  data:"2026-09-14",
+  publicacao:"—",
+  relator:"—",
+  tipoAto:"Súmula (enunciado aprovado em sessão extraordinária do Pleno e das Turmas da CSRF)",
+  resultado:"Proposta de súmula aprovada",
+  orientacao:"favor",
+  orientacaoLabel:"Favorável ao contribuinte",
+  vinculacao:"Vinculante",
+  vinculacaoDetalhe:"Súmula do CARF; passa a vincular julgamentos do próprio CARF e das Delegacias da Receita Federal de Julgamento (DRJ) a partir da publicação do enunciado no Diário Oficial da União — publicação ainda não confirmada nas fontes consultadas até 17/09/2026.",
+  areas:["Direito Tributário","Tributação Direta","Processo Administrativo Fiscal"],
+  tributos:["IRPJ","CSLL"],
+  tags:["indébito tributário","restituição","compensação administrativa","expurgos inflacionários","Tabela Única da Justiça Federal","correção monetária","súmula CARF","CSRF","planos econômicos","IRPJ/CSLL"],
+  resumo:"Em sessão extraordinária realizada em 14/9/2026 (Portaria Carf/MF nº 2.585/2026), o Pleno da CSRF aprovou súmula segundo a qual, na atualização de indébitos sujeitos a restituição ou compensação administrativa, devem ser computados os índices de inflação expurgados por planos econômicos governamentais constantes da Tabela Única da Justiça Federal (aprovada por Resolução do CJF), ainda que não haja decisão judicial específica reconhecendo esse direito ao contribuinte.",
+  tese:"Na atualização dos indébitos sujeitos a restituição ou a compensação administrativa devem ser computados os índices de inflação expurgados pelos planos econômicos governamentais constantes na Tabela Única da Justiça Federal, aprovada por Resolução do Conselho da Justiça Federal (CJF), ainda que não haja decisão judicial reconhecendo esse direito ao contribuinte.",
+  fatos:"Havia controvérsia no CARF sobre se a atualização monetária de indébitos tributários a restituir ou compensar administrativamente deveria incluir os expurgos inflacionários de planos econômicos (equivalentes aos reconhecidos judicialmente em ações de correção de saldos de poupança e FGTS, por exemplo), na ausência de decisão judicial específica do contribuinte nesse sentido. A proposta de súmula foi submetida a votação em sessão extraordinária do Pleno e das Turmas da CSRF em 14/9/2026, sendo aprovada pelo Pleno.",
+  fundamentos:[
+    "A Tabela Única da Justiça Federal, aprovada por Resolução do CJF, já incorpora os índices expurgados pelos planos econômicos e é de aplicação uniforme para atualização monetária no âmbito federal, dispensando decisão judicial individual e específica para sua utilização administrativa.",
+    "A restituição ou compensação administrativa de indébito tributário deve refletir o valor real corrigido do crédito do contribuinte, sob pena de enriquecimento sem causa da Fazenda Pública pela aplicação de índice de correção monetária inferior ao efetivamente verificado no período."
+  ],
+  dispositivos:["—"],
+  precedentes:["—"],
+  analise:[
+    "Favorece diretamente contribuintes com créditos de indébito tributário (IRPJ, CSLL e demais tributos federais) a restituir ou compensar administrativamente relativos a períodos anteriores abrangidos pelos expurgos inflacionários, que passam a ter direito ao índice correto de atualização sem necessidade de decisão judicial prévia específica.",
+    "Solidez: aprovada pelo Pleno da CSRF, a mais alta instância de uniformização do contencioso administrativo tributário federal — grau máximo de solidez interna ao órgão, com efeito vinculante amplo assim que publicada.",
+    "Recursos cabíveis: não há recurso administrativo contra súmula do CARF; a Fazenda Nacional, se discordar do critério, poderá buscar alteração normativa da Tabela Única da Justiça Federal ou questionamento judicial da vinculação administrativa a ela.",
+    "Teses replicáveis: (1) em pedidos de restituição ou declarações de compensação administrativa pendentes de análise, requerer expressamente a aplicação dos índices expurgados da Tabela Única da Justiça Federal, invocando a súmula; (2) revisar compensações e restituições já deferidas com índice de atualização inferior ao da Tabela Única, para verificar diferença a recuperar; (3) mapear créditos tributários antigos (décadas de 1980-1990, período dos principais planos econômicos) ainda pendentes de restituição ou compensação para reavaliação do valor atualizado.",
+    "Limites: a súmula trata da atualização monetária administrativa do indébito no âmbito do CARF/Receita Federal — não se confunde com a discussão judicial autônoma sobre expurgos inflacionários em outras relações jurídicas (poupança, FGTS), nem dispensa a comprovação da existência e liquidez do próprio crédito tributário.",
+    "Providências práticas: orientar clientes com pedidos de restituição ou compensação administrativa de tributos federais em análise ou já deferidos a exigir/revisar a aplicação dos índices expurgados da Tabela Única da Justiça Federal, quantificando a diferença de correção monetária a recuperar."
+  ],
+  impacto:"Relevante para contribuintes com créditos tributários federais (especialmente IRPJ/CSLL e contribuições) pendentes de restituição ou compensação administrativa relativos a períodos anteriores abrangidos pelos planos econômicos, com potencial de aumentar o valor corrigido desses créditos.",
+  fonte:"https://www.lacerdagama.com.br/post/carf-aprova-oito-novas-s%C3%BAmulas-sobre-restitui%C3%A7%C3%A3o-irpj-csll-contribui%C3%A7%C3%B5es-ipi-e-iof",
+  origem:"Pesquisa em fontes secundárias"
+},
 {
   id:"carf-sumula-iof-conta-corrente-mutuo",
   identificacao:"Proposta de Súmula CARF — nº — (3ª Turma da CSRF)",
