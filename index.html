@@ -172,9 +172,91 @@ footer{text-align:center;font-size:11.5px;color:var(--suave);padding:20px 16px 3
    Atualizada automaticamente todo dia às 07h (América/São_Paulo).
    NUNCA remover registros anteriores — apenas acrescentar no topo do array. */
 
-const ATUALIZADO_EM = "2026-09-17";
+const ATUALIZADO_EM = "2026-09-23";
 
 const DECISOES = [
+{
+  id:"stj-corte-especial-honorarios-equidade-exclusao-execucao-fiscal",
+  identificacao:"Embargos de Divergência em REsp — nº — (Corte Especial)",
+  tema:"—",
+  titulo:"STJ: exclusão do contribuinte do polo passivo da execução fiscal, sem afetar o crédito, gera honorários por equidade a cargo da Fazenda Pública",
+  orgao:"STJ",
+  colegiado:"Corte Especial",
+  data:"2026-09-22",
+  publicacao:"22/09/2026",
+  relator:"Rel. para o acórdão: Min. Maria Thereza de Assis Moura (divergência vencedora)",
+  tipoAto:"Acórdão em Embargos de Divergência",
+  resultado:"Embargos de divergência julgados; prevaleceu a divergência",
+  orientacao:"favor",
+  orientacaoLabel:"Favorável ao contribuinte excluído do polo passivo",
+  vinculacao:"Não vinculante",
+  vinculacaoDetalhe:"Julgamento da Corte Especial em embargos de divergência, com função uniformizadora da jurisprudência interna do STJ; não tem o efeito formalmente vinculante de recurso repetitivo, mas alinha o entendimento à tese já vinculante do Tema 1076/STJ.",
+  areas:["Direito Tributário","Execução Fiscal","Processo Civil"],
+  tributos:["—"],
+  tags:["execução fiscal","honorários advocatícios","honorários por equidade","exclusão do polo passivo","redirecionamento","Fazenda Pública","art. 85, §8º, CPC","Tema 1076","proveito econômico inestimável","embargos de divergência"],
+  resumo:"A Corte Especial do STJ, em embargos de divergência julgados em Plenário Virtual concluído em 22/9/2026, decidiu que a exclusão do contribuinte (ou de coexecutado) do polo passivo da execução fiscal, sem que isso afete o crédito exequendo — que continua sendo cobrado dos demais devedores —, gera honorários advocatícios por equidade a cargo da Fazenda Pública, nos termos do art. 85, §8º, do CPC. Prevaleceu a divergência aberta pela Min. Maria Thereza de Assis Moura.",
+  tese:"A exclusão do executado do polo passivo da execução fiscal, quando não afeta o crédito tributário exequendo — que segue sendo cobrado dos demais devedores —, não gera proveito econômico mensurável em favor do excluído, autorizando a fixação de honorários advocatícios por equidade, a cargo da Fazenda Pública, com base no art. 85, §8º, do CPC.",
+  fatos:"O STJ enfrentava divergência interna sobre o critério de fixação de honorários advocatícios quando um coexecutado (frequentemente sócio redirecionado) é excluído do polo passivo de execução fiscal sem que a exclusão afete o crédito tributário, que continua sendo cobrado dos demais executados. A questão foi levada a embargos de divergência perante a Corte Especial, tendo como acórdão paradigma o EREsp 1.880.560/RN (Primeira Seção, 2024) e a tese vinculante do Tema 1.076/STJ (recursos repetitivos, maio de 2025). O julgamento foi concluído em Plenário Virtual em 22/9/2026, prevalecendo a divergência da Min. Maria Thereza de Assis Moura, acompanhada pelos Mins. Benedito Gonçalves, Raul Araújo, Isabel Gallotti, Ricardo Villas Bôas Cueva, Francisco Falcão, João Otávio de Noronha e Humberto Martins.",
+  fundamentos:[
+    "A mera exclusão do polo passivo da execução fiscal, sem alteração do crédito cobrado pela Fazenda Pública (que prossegue contra os demais devedores), não gera proveito econômico mensurável em favor do excluído, afastando a fixação de honorários pelo critério dos §§2º-3º do art. 85 do CPC (percentual sobre o valor da causa/condenação).",
+    "Diante da inexistência de proveito econômico mensurável, aplica-se o critério equitativo do art. 85, §8º, do CPC, cabendo ao juízo fixar os honorários por apreciação equitativa, considerando o trabalho realizado pelo advogado do excluído.",
+    "A solução alinha o entendimento da Corte Especial à tese vinculante já firmada pela 1ª Seção no Tema 1.076/STJ, uniformizando o tratamento da matéria em todo o Tribunal e reduzindo a insegurança jurídica decorrente de decisões divergentes entre órgãos fracionários."
+  ],
+  dispositivos:["CPC, art. 85, §8º","CPC, art. 85, §§2º e 3º"],
+  precedentes:["EREsp 1.880.560/RN (Primeira Seção, 2024)","Tema 1.076/STJ (recursos repetitivos, maio de 2025)"],
+  analise:[
+    "Favorece diretamente sócios, coobrigados e terceiros que conseguem sua exclusão do polo passivo de execuções fiscais (via exceção de pré-executividade ou embargos) sem que isso desconstitua o crédito tributário em si — passam a ter direito a honorários por equidade pagos pela Fazenda Pública, mesmo sem 'proveito econômico' mensurável na forma tradicional.",
+    "Solidez: julgamento da Corte Especial (órgão de cúpula do STJ para uniformização) em embargos de divergência, com maioria expressiva (8 ministros na corrente vencedora) e alinhamento à tese já vinculante do Tema 1.076 — reduz fortemente a chance de nova reversão em curto prazo, embora embargos de divergência não tenham o efeito formalmente vinculante de recurso repetitivo.",
+    "Recursos cabíveis: em tese, recurso extraordinário ao STF, se houver questão constitucional a ser suscitada (o que é incomum em matéria de honorários, de natureza infraconstitucional); na prática, o precedente tende a ser seguido pelos órgãos fracionários do STJ e tribunais locais.",
+    "Teses replicáveis: (1) em execuções fiscais nas quais o cliente (sócio ou coexecutado) seja excluído do polo passivo sem afetação do crédito principal, requerer expressamente a fixação de honorários por equidade com base neste precedente; (2) revisar decisões recentes que tenham negado honorários ao excluído sob o fundamento de ausência de proveito econômico, para eventual embargos de declaração ou recurso; (3) mapear teses de exclusão de polo passivo (ilegitimidade passiva, prescrição para o sócio, ausência de responsabilidade tributária) que possam ensejar o mesmo benefício.",
+    "Limites: a tese pressupõe que a exclusão do executado não afete o crédito tributário em si (que continua sendo cobrado de outros devedores) — se a exclusão decorrer de reconhecimento de nulidade da CDA ou de extinção do próprio crédito, a lógica do 'proveito econômico inestimável' pode não se aplicar da mesma forma, sujeitando o caso a fixação de honorários por outro critério.",
+    "Providências práticas: orientar a equipe de contencioso a requerer honorários por equidade em toda exclusão de polo passivo de execução fiscal que não afete o crédito principal, citando este precedente da Corte Especial e o Tema 1.076/STJ; revisar processos em curso com pedido de exclusão pendente para incluir esse requerimento desde já."
+  ],
+  impacto:"Relevante para sócios e terceiros frequentemente incluídos em execuções fiscais por redirecionamento ou responsabilização indevida, que agora têm base mais sólida para obter honorários advocatícios da Fazenda Pública ao conseguirem sua exclusão do processo, mesmo sem impacto no crédito tributário principal.",
+  fonte:"https://conjur.com.br/2026-set-22/exclusao-da-execucao-fiscal-sem-discutir-credito-gera-honorarios-por-equidade/",
+  origem:"Pesquisa em fontes secundárias"
+},
+{
+  id:"stf-tema-1309-receitas-financeiras-reservas-tecnicas-seguradoras-pis-cofins",
+  identificacao:"RE 1.479.774 | Tema 1309/STF (Repercussão Geral)",
+  tema:"1309",
+  titulo:"STF: receitas financeiras de reservas técnicas de seguradoras não integram a base de cálculo de PIS e Cofins",
+  orgao:"STF",
+  colegiado:"Plenário",
+  data:"2026-09-02",
+  publicacao:"—",
+  relator:"Min. Luiz Fux",
+  tipoAto:"Acórdão em Recurso Extraordinário com Repercussão Geral",
+  resultado:"Recurso extraordinário provido por maioria (6x4); tese de repercussão geral fixada",
+  orientacao:"favor",
+  orientacaoLabel:"Favorável ao contribuinte",
+  vinculacao:"Vinculante",
+  vinculacaoDetalhe:"Julgamento em repercussão geral (Tema 1309). Tese de observância obrigatória por juízes e tribunais e vinculação da Administração Tributária (art. 927, III, CPC).",
+  areas:["Direito Tributário","Tributação Indireta","Seguros e Previdência Privada"],
+  tributos:["PIS","COFINS"],
+  tags:["PIS","Cofins","reservas técnicas","seguradoras","entidades de previdência privada","receitas financeiras","faturamento","Tema 1309","repercussão geral","Lei 9.718/1998"],
+  resumo:"O Plenário do STF, em sessão concluída em 2/9/2026, deu provimento por maioria (6x4) ao RE 1.479.774 e fixou a tese do Tema 1309: as receitas financeiras decorrentes da aplicação de reservas técnicas — cuja constituição é imposta por lei às seguradoras e entidades de previdência privada — não integram o conceito constitucional de faturamento e, portanto, não compõem a base de cálculo de PIS e Cofins.",
+  tese:"As contribuições ao PIS e à Cofins, quando incidentes sobre o faturamento, devem recair sobre a receita bruta operacional decorrente das atividades típicas do contribuinte, sem prejuízo das exclusões e deduções legais; as receitas financeiras oriundas da aplicação de reservas técnicas de seguradoras não integram a base de cálculo das contribuições ao PIS e à Cofins incidentes sobre o faturamento, nos termos da Lei nº 9.718/1998.",
+  fatos:"Seguradoras questionavam a incidência de PIS e Cofins sobre as receitas financeiras auferidas com a aplicação obrigatória de reservas técnicas (constituídas por imposição regulatória, e não por opção do contribuinte). O caso foi levado a julgamento com repercussão geral reconhecida (Tema 1309) e apreciado no Plenário físico, com início em fevereiro de 2026 (voto do relator, Min. Luiz Fux, pelo provimento parcial) e conclusão em 2/9/2026.",
+  fundamentos:[
+    "As receitas financeiras de reservas técnicas não decorrem da atividade empresarial típica da seguradora (a venda de apólices/serviços de seguro), mas de uma imposição regulatória de constituição de reservas, o que as afasta do conceito constitucional de faturamento (art. 195, I, 'b', CF).",
+    "O voto vencedor do relator, Min. Luiz Fux, prestigiou a distinção entre receita operacional típica (sujeita a PIS/Cofins) e receita financeira decorrente de obrigação regulatória de terceiros, sem correspondência com a atividade-fim do contribuinte.",
+    "A divergência, aberta pelo Min. Alexandre de Moraes (acompanhado pelos Mins. Flávio Dino, Cristiano Zanin e Gilmar Mendes), defendia a incidência das contribuições sobre essas receitas financeiras, por entender que compõem o resultado econômico global da atividade de seguros e previdência privada."
+  ],
+  dispositivos:["CF, art. 195, I, 'b'","Lei nº 9.718/1998"],
+  precedentes:["—"],
+  analise:[
+    "Favorece diretamente seguradoras e entidades de previdência privada, que poderão excluir as receitas financeiras de reservas técnicas da base de cálculo de PIS e Cofins, com potencial de recuperação de valores pagos nos últimos 5 anos (observado o prazo prescricional) e redução da carga tributária prospectiva.",
+    "Solidez: julgamento por maioria (6x4) em repercussão geral, com divergência relevante e coesa (4 ministros, incluindo Alexandre de Moraes e Gilmar Mendes) — não é um placar unânime, mas a tese é vinculante e imediatamente aplicável enquanto não houver modulação ou embargos de declaração providos.",
+    "Recursos cabíveis: embargos de declaração eventualmente opostos pela União para esclarecer o alcance da tese ou pedir modulação de efeitos (nada identificado como oposto até a publicação da decisão, mas a possibilidade deve ser monitorada nos próximos ciclos).",
+    "Teses replicáveis: (1) seguradoras e entidades de previdência privada autuadas ou com recolhimento de PIS/Cofins sobre receitas financeiras de reservas técnicas devem invocar diretamente o Tema 1309; (2) mapear períodos não decaídos/prescritos para avaliar recuperação de valores já recolhidos; (3) revisar a apuração corrente de PIS/Cofins para excluir prospectivamente essas receitas da base de cálculo.",
+    "Limites: a tese é restrita às receitas financeiras de reservas técnicas cuja constituição é imposta por lei/regulação — não se estende automaticamente a outras receitas financeiras de seguradoras (aplicações de recursos próprios, por exemplo) ou a outros setores regulados sem imposição legal equivalente de reservas.",
+    "Providências práticas: orientar clientes do setor de seguros e previdência privada a revisar a apuração de PIS/Cofins para excluir as receitas financeiras de reservas técnicas, quantificar o crédito potencial dos últimos 5 anos e avaliar via administrativa (compensação) ou judicial para a recuperação, monitorando eventual modulação de efeitos em embargos de declaração."
+  ],
+  impacto:"Elevado para o setor de seguros e previdência privada, com redução relevante da carga tributária sobre receitas financeiras de reservas técnicas — montantes tipicamente significativos dado o volume de recursos que essas entidades são obrigadas a manter aplicado.",
+  fonte:"https://conjur.com.br/2026-set-02/stf-afasta-pis-cofins-sobre-rendimentos-de-reservas-tecnicas-de-seguradoras/",
+  origem:"Pesquisa em fontes secundárias"
+},
 {
   id:"carf-sumula-limite-alcada-juros-mora",
   identificacao:"Proposta de Súmula CARF — nº — (Pleno da CSRF)",
