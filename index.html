@@ -172,9 +172,50 @@ footer{text-align:center;font-size:11.5px;color:var(--suave);padding:20px 16px 3
    Atualizada automaticamente todo dia às 07h (América/São_Paulo).
    NUNCA remover registros anteriores — apenas acrescentar no topo do array. */
 
-const ATUALIZADO_EM = "2026-09-24";
+const ATUALIZADO_EM = "2026-10-01";
 
 const DECISOES = [
+{
+  id:"stj-acao-rescisoria-fazenda-stf-declara-constitucionalidade-temas-881-885",
+  identificacao:"Ação(ões) Rescisória(s) — nº — (1ª Seção)",
+  tema:"—",
+  titulo:"STJ: Fazenda Pública pode usar ação rescisória para cobrar tributo cuja inconstitucionalidade foi afastada por decisão posterior do STF",
+  orgao:"STJ",
+  colegiado:"1ª Seção",
+  data:"2026-09-09",
+  publicacao:"29/09/2026",
+  relator:"Min. Regina Helena Costa",
+  tipoAto:"Acórdão em Ação(ões) Rescisória(s)",
+  resultado:"Ação(ões) rescisória(s) julgada(s) procedente(s) por maioria",
+  orientacao:"contra",
+  orientacaoLabel:"Desfavorável ao contribuinte",
+  vinculacao:"Não vinculante",
+  vinculacaoDetalhe:"Julgamento pela 1ª Seção em ação(ões) rescisória(s); não decidido sob o rito dos recursos repetitivos, mas com função uniformizadora relevante sobre a aplicação dos Temas 881 e 885/STF à coisa julgada tributária.",
+  areas:["Direito Tributário","Processo Civil","Coisa Julgada"],
+  tributos:["—"],
+  tags:["ação rescisória","coisa julgada tributária","Tema 881/STF","Tema 885/STF","relações jurídicas de trato continuado","modulação de efeitos","segurança jurídica","Fazenda Pública","controle difuso","multa de mora"],
+  resumo:"Por maioria, a 1ª Seção do STJ, sob relatoria da Min. Regina Helena Costa, decidiu que a Fazenda Pública pode ajuizar ação rescisória para desconstituir decisão judicial transitada em julgado que afastava a cobrança de um tributo, quando o STF declara posteriormente, em controle concentrado ou com repercussão geral (Temas 881 e 885), a constitucionalidade da exação. O colegiado limitou, porém, os efeitos da rescisória: julgada procedente, a Fazenda não pode cobrar multa de mora sobre o período anterior à decisão do STF, já que o contribuinte estava amparado pela decisão rescindida.",
+  tese:"Cabe ação rescisória da Fazenda Pública contra decisão transitada em julgado que afastou a cobrança de tributo, quando o STF, em julgamento posterior de controle concentrado ou com repercussão geral (Temas 881 e 885), declarar a constitucionalidade da exação; julgada procedente a rescisória, não é cabível a cobrança de multa de mora relativa ao período anterior à decisão do STF.",
+  fatos:"Após o STF fixar, nos Temas 881 (RE 949.297, rel. Min. Edson Fachin) e 885 (RE 955.227, rel. Min. Luís Roberto Barroso), os limites da coisa julgada tributária em relações de trato continuado quando há decisão posterior do STF em sentido contrário à anteriormente aplicada, restava controvertido se a Fazenda Pública poderia usar ação rescisória — e não apenas a cessação de efeitos prospectivos automática já reconhecida pelo STF — para alcançar também o período anterior à decisão do STF, inclusive para fins de cobrança do tributo não recolhido. A 1ª Seção do STJ julgou a questão em 9/9/2026, por maioria, acompanhando a relatora Min. Regina Helena Costa, com os votos dos Mins. Afrânio Vilela, Francisco Falcão, Maria Thereza de Assis Moura, Herman Benjamin e Marco Aurélio Bellizze.",
+  fundamentos:[
+    "Os Temas 881 e 885/STF já asseguram a cessação automática dos efeitos prospectivos da coisa julgada tributária individual quando há decisão posterior do STF em sentido contrário, em relações de trato continuado — mas essa automaticidade opera apenas para o futuro, sem alcançar, por si só, o período pretérito.",
+    "Para alcançar o período anterior à decisão do STF (e viabilizar a cobrança dos valores não recolhidos sob amparo da coisa julgada rescindenda), a Fazenda Pública depende do ajuizamento de ação rescisória, dentro do prazo decadencial aplicável, não bastando a mera invocação da tese fixada nos Temas 881/885.",
+    "Por outro lado, a imposição de multa de mora sobre esse período pretérito seria incompatível com a boa-fé objetiva e a segurança jurídica, já que o contribuinte estava amparado por decisão judicial transitada em julgado ao deixar de recolher o tributo — daí a limitação do julgado apenas ao tributo principal, sem multa moratória."
+  ],
+  dispositivos:["CPC, art. 966","CF, art. 102"],
+  precedentes:["Tema 881/STF (RE 949.297)","Tema 885/STF (RE 955.227)"],
+  analise:[
+    "Desfavorece contribuintes que obtiveram, no passado, decisão judicial transitada em julgado afastando a cobrança de um tributo posteriormente declarado constitucional pelo STF (em controle concentrado ou repercussão geral) — a Fazenda Pública agora tem via expressamente reconhecida (ação rescisória) para cobrar o tributo também em relação ao período anterior à decisão do STF, e não apenas prospectivamente.",
+    "Solidez: julgamento pela 1ª Seção (órgão de uniformização em matéria tributária no STJ), por maioria expressa (6 ministros na corrente vencedora), mas não submetido ao rito dos recursos repetitivos — não tem o efeito vinculante automático do art. 927, III, CPC, embora deva fortemente influenciar o julgamento de ações rescisórias análogas em todo o país.",
+    "Recursos cabíveis: recurso extraordinário ao STF, dada a matéria constitucional subjacente (alcance da coisa julgada tributária, arts. 5º, XXXVI, e 102, CF); contribuintes afetados devem avaliar a interposição para discutir os limites da própria rescisória.",
+    "Teses replicáveis (defensivas para contribuintes): (1) verificar se a ação rescisória da Fazenda foi ajuizada dentro do prazo decadencial de 2 anos do trânsito em julgado da decisão rescindenda (art. 975, CPC); (2) em toda rescisória fazendária fundada nos Temas 881/885, requerer expressamente a exclusão da multa de mora sobre o período anterior à decisão do STF, invocando este precedente; (3) mapear clientes com decisões transitadas em julgado favoráveis sobre tributos posteriormente declarados constitucionais pelo STF, para avaliar exposição a rescisória fazendária e provisionar contingência (tributo principal e juros, sem multa de mora).",
+    "Limites: o precedente não dispensa a Fazenda Pública do ônus de ajuizar a rescisória dentro do prazo legal, nem afasta a possibilidade de defesa de mérito do contribuinte na própria ação rescisória (ausência dos requisitos do art. 966, CPC); também não afasta discussão sobre juros de mora (apenas a multa foi expressamente excluída).",
+    "Providências práticas: identificar clientes com decisões tributárias definitivas favoráveis amparadas em tese posteriormente revertida pelo STF (controle concentrado ou repercussão geral), avaliar o prazo decadencial da rescisória já transcorrido ou em curso, e provisionar contingência para o tributo principal e juros do período pretérito, excluindo a multa de mora com base neste precedente."
+  ],
+  impacto:"Transversal a contribuintes com decisões tributárias definitivas obtidas em relações de trato continuado cuja tese de fundo foi posteriormente revertida pelo STF em controle concentrado ou repercussão geral — amplia o risco de cobrança retroativa pela Fazenda Pública via ação rescisória, ainda que sem multa de mora.",
+  fonte:"https://conjur.com.br/2026-set-09/stj-autoriza-rescisoria-para-cobrar-tributo-que-stf-julgou-constitucional/",
+  origem:"Pesquisa em fontes secundárias"
+},
 {
   id:"stj-tema-1455-pis-cofins-cigarros-substituicao-tributaria-diferenca-preco",
   identificacao:"REsp 2.177.940/RS e REsp 2.215.075/SC | Tema 1455/STJ",
